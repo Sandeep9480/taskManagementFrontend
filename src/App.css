@@ -1,0 +1,29 @@
+/* Nav Bar */
+.navContainer {
+  /* position: fixed; */
+  /* width: 100%; */
+  border: 1px solid gray;
+  margin-bottom: 15px;
+
+}
+
+.emptyDiv {
+  width: 100%;
+  background-color: rgba(0, 0, 255, 0.316);
+  padding: 0;
+
+}
+
+.emptyDiv svg {
+  width: 3rem;
+  margin-left: 2rem;
+  opacity: 0.5;
+}
+
+.nav {
+  display: flex;
+  gap: 1.2rem;
+  margin-left: 1.2rem;
+  margin-top: 1.2rem;
+  padding-block: 1.2rem;
+}

@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.2rem;
+    gap: 1.2rem;
+}
+
+
+.inputBoxes {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 20%;
+}
+
+.inputBoxes input {
+    height: 1.8rem;
+}
+
+.inputBoxes button {
+    height: 2rem;
+    background: blue;
+    border: none;
+    color: white;
+}
+
+.inputBoxes input::placeholder {
+    padding-inline: 1.2rem;
+    padding-block: 1.2rem;
+}
